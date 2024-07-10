@@ -1,4 +1,5 @@
-const arrayFirstSentence=['Life\'s journey is filled with ups and downs, but every step is meaningful.',
+const arrayFirstSentence=[
+    'Life\'s journey is filled with ups and downs, but every step is meaningful.',
     'Self-belief is the key to unlocking your potential.',
     'A positive mindset can change your life.',
     'Challenges are opportunities in disguise.',
@@ -19,7 +20,8 @@ const arrayFirstSentence=['Life\'s journey is filled with ups and downs, but eve
     'Humility keeps you grounded.',
     'Your passion is your driving force.'
 ];
-const arraySecondSentence=['Embrace your path and trust the process.',
+const arraySecondSentence=[
+    'Embrace your path and trust the process.',
     'Trust in your abilities and stay confident.',
     'Focus on the good and stay optimistic.',
     'Face them with courage and determination.',
@@ -40,7 +42,8 @@ const arraySecondSentence=['Embrace your path and trust the process.',
     'Stay humble and open to learning from others.',
     'Pursue what you love with all your heart.'
 ];
-const arrayThirdSentence=['Each experience makes you stronger and wiser.',
+const arrayThirdSentence=[
+    'Each experience makes you stronger and wiser.',
     'You are capable of achieving greatness.',
     'Your outlook influences your reality.',
     'Each obstacle makes you stronger.',
