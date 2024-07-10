@@ -79,4 +79,4 @@ function assignRandomPhrases(arr1,arr2,arr3){
     return arrayResultPhrases;
 }
 
-console.log(assignRandomPhrases(arrayFirstSentence,arraySecondSentence,arrayThirdSentence));
+assignRandomPhrases(arrayFirstSentence,arraySecondSentence,arrayThirdSentence);
