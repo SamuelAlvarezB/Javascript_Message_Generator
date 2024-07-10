@@ -65,6 +65,20 @@ const arrayThirdSentence=[
     'Passion fuels purpose and fulfillment.'
 ];
 
+const arrayAsciiArt=[
+    '⊂(◉‿◉)つ',
+    '(ㆆ _ ㆆ)',
+    '☜(⌒▽⌒)☞',
+    '⤜(ⱺ ʖ̯ⱺ)⤏',
+    'ʕ·͡ᴥ·ʔ',
+    '(˵ ͡° ͜ʖ ͡°˵)',
+    '( ͡° ᴥ ͡°)',
+    '(͡ ° ͜ʖ ͡ °)',
+    '(̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄',
+    '¯\(°_o)/¯',
+    '༼ つ ◕_◕ ༽つ'
+];
+
 function getRandomNumbers(){
     let arrayRandomNumbers=[];
     for(let i=0;i<3;i++){
@@ -73,13 +87,14 @@ function getRandomNumbers(){
     return arrayRandomNumbers;
 }
 
-function assignRandomPhrases(arr1,arr2,arr3){
+function assignRandomPhrases(arr1,arr2,arr3,arr4){
     let arrayNumbers=getRandomNumbers();
     let arrayResultPhrases=[];
     arrayResultPhrases.push(arr1[arrayNumbers[0]]);
     arrayResultPhrases.push(arr2[arrayNumbers[1]]);
     arrayResultPhrases.push(arr3[arrayNumbers[2]]);
+    arrayResultPhrases.push(arr4[Math.floor(Math.random()*11)]);
     return arrayResultPhrases;
 }
 
-assignRandomPhrases(arrayFirstSentence,arraySecondSentence,arrayThirdSentence);
+console.log(assignRandomPhrases(arrayFirstSentence,arraySecondSentence,arrayThirdSentence,arrayAsciiArt));
