@@ -97,4 +97,6 @@ function assignRandomPhrases(arr1,arr2,arr3,arr4){
     return arrayResultPhrases;
 }
 
-console.log(assignRandomPhrases(arrayFirstSentence,arraySecondSentence,arrayThirdSentence,arrayAsciiArt));
+const resultArray=assignRandomPhrases(arrayFirstSentence,arraySecondSentence,arrayThirdSentence,arrayAsciiArt);
+
+console.log(`Here are three unrelated motivational sentences:\n\n ${resultArray[0]}\n ${resultArray[1]}\n ${resultArray[2]}\n\n-----     ${resultArray[3]}     -----`);
